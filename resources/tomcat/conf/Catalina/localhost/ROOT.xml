@@ -3,13 +3,13 @@
 
   <!-- Required. Specifies the processor configurations that should be loaded. The value should either be an absolute path 
   to a file or an absolute http or https URL. -->
-  <Parameter name="com.corefiling.tnwsp.processor.config" value="C:/Products/TNWSP/TNWSP-2.16.0/examples/processorPoolConfig.xml" />
+  <Parameter name="com.corefiling.tnwsp.processor.config" value="${catalina.base}/conf/processorPoolConfig.xml" />
 
-  <!-- Required. Specifies the absolute path to the licence jar. -->
-  <Parameter name="com.corefiling.tnwsp.licence" value="C:/Products/TNWSP/TNWSP-2.16.0/licences/internal.tnwsp.all.licence.jar" />
+  <!-- Required. Specifies the absolute path to the licence jar. 
+  <Parameter name="com.corefiling.tnwsp.licence" value="C:/Products/TNWSP/TNWSP-2.16.0/licences/internal.tnwsp.all.licence.jar" />-->
 
   <!-- Recommended. Specifies the absolute path to a logging configuration file. By default logging might be discarded 
-   or go to a location specified by Tomcat. Using log4j configuration is thus highly recommended. -->
-  <Parameter name="com.corefiling.tnwsp.logging.config" value="C:/Products/TNWSP/TNWSP-2.16.0/examples/default.log4j.properties" />
+   or go to a location specified by Tomcat. Using log4j configuration is thus highly recommended. 
+  <Parameter name="com.corefiling.tnwsp.logging.config" value="C:/Products/TNWSP/TNWSP-2.16.0/examples/default.log4j.properties" />-->
 
 </Context>
