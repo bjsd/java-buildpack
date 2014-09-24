@@ -1,0 +1,15 @@
+<!-- Required. docBase is the location of the war which Tomcat will deploy. It does not need to be within the Tomcat installation directory -->
+<Context path="/tnwsp" docBase="/path/to/tnwsp.war" debug="0" >
+
+  <!-- Required. Specifies the processor configurations that should be loaded. The value should either be an absolute path 
+  to a file or an absolute http or https URL. -->
+  <Parameter name="com.corefiling.tnwsp.processor.config" value="processorPoolConfig.xml" />
+
+  <!-- Required. Specifies the absolute path to the licence jar. -->
+  <Parameter name="com.corefiling.tnwsp.licence" value="/path/to/tnwsp.licence.jar" />
+
+  <!-- Recommended. Specifies the absolute path to a logging configuration file. By default logging might be discarded 
+   or go to a location specified by Tomcat. Using log4j configuration is thus highly recommended. -->
+  <Parameter name="com.corefiling.tnwsp.logging.config" value="/path/to/log4j.properties" />
+
+</Context>
