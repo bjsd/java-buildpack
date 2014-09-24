@@ -9,7 +9,7 @@
   <Parameter name="com.corefiling.tnwsp.licence" value="${catalina.base}/webapps/ROOT/WEB-INF/True_North_Web_Services_Processor-Ben_Sanger_Davies.jar" />
 
   <!-- Recommended. Specifies the absolute path to a logging configuration file. By default logging might be discarded 
-   or go to a location specified by Tomcat. Using log4j configuration is thus highly recommended. 
-  <Parameter name="com.corefiling.tnwsp.logging.config" value="C:/Products/TNWSP/TNWSP-2.16.0/examples/default.log4j.properties" />-->
+   or go to a location specified by Tomcat. Using log4j configuration is thus highly recommended. -->
+  <Parameter name="com.corefiling.tnwsp.logging.config" value="${catalina.base}/conf/default.log4j.properties" />
 
 </Context>
