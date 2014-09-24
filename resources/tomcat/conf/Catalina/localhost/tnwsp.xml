@@ -1,5 +1,5 @@
 <!-- Required. docBase is the location of the war which Tomcat will deploy. It does not need to be within the Tomcat installation directory -->
-<Context path="/tnwsp" debug="0" >
+<Context debug="0" >
 
   <!-- Required. Specifies the processor configurations that should be loaded. The value should either be an absolute path 
   to a file or an absolute http or https URL. -->
