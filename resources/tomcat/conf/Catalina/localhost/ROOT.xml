@@ -5,8 +5,8 @@
   to a file or an absolute http or https URL. -->
   <Parameter name="com.corefiling.tnwsp.processor.config" value="${catalina.base}/conf/processorPoolConfig.xml" />
 
-  <!-- Required. Specifies the absolute path to the licence jar. 
-  <Parameter name="com.corefiling.tnwsp.licence" value="C:/Products/TNWSP/TNWSP-2.16.0/licences/internal.tnwsp.all.licence.jar" />-->
+  <!-- Required. Specifies the absolute path to the licence jar. -->
+  <Parameter name="com.corefiling.tnwsp.licence" value="${catalina.base}/webapps/ROOT/WEB-INF/True_North_Web_Services_Processor-Ben_Sanger_Davies.jar" />
 
   <!-- Recommended. Specifies the absolute path to a logging configuration file. By default logging might be discarded 
    or go to a location specified by Tomcat. Using log4j configuration is thus highly recommended. 
