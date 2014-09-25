@@ -13,7 +13,7 @@
         <taxonomy location="http://www.eba.europa.eu/eu/fr/xbrl/crr/fws/corep/its-2013-02/2013-12-01/mod/corep_nsfr_ind.xsd"/>
         <taxonomy location="http://www.eba.europa.eu/eu/fr/xbrl/crr/fws/finrep/its-2013-02/2013-12-01/mod/finrep_con_gaap.xsd"/>
         <taxonomy location="http://www.eba.europa.eu/eu/fr/xbrl/crr/fws/finrep/its-2013-02/2013-12-01/mod/finrep_con_ifrs.xsd"/> 
-        <validationPlugin url="TNXIIFModule-1.13.0.jar">
+        <!-- <validationPlugin url="TNXIIFModule-1.13.0.jar">
             <property name="maximumInstanceValidationTimeMillis" value="3600000"/>
             <property name="enableCustomAssertionMessages" value="true"/> 
             <property name="maximumErrors" value="1000"/>
@@ -24,7 +24,7 @@
         <plugin url="TNEFRVM-2.2.0-EBA.jar" />
         <plugin url="TNEFRVM-2.2.0-FCA.jar" />
         <plugin url="TNEMM-1.0.0.jar"/> 
-        <plugin url="TNFC-1.7.2.jar" />
+        <plugin url="TNFC-1.7.2.jar" />-->
         <inputs allowExtensionTaxonomies="true" maxPayloadSizeMB="100" maxExtractedZIPSizeMB="100">
             <xbrlInputs/>
             <taxonomyInputs />
